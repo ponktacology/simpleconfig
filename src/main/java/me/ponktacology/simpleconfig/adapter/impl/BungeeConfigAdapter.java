@@ -31,6 +31,7 @@ public class BungeeConfigAdapter extends ConfigAdapter {
     @Override
     protected File getFile(String fileName) throws IOException {
         final File file = new File(ProxyServer.getInstance().getPluginsFolder(), fileName);
+        if(!ProxyServer.getInstance().getPluginsFolder().exists()) ProxyServer.getInstance().getPluginsFolder().mkdirs();
         if (!file.exists()) file.createNewFile();
         return file;
     }
