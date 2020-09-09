@@ -1,0 +1,7 @@
+me\ponktacology\simpleconfig\SimpleConfig.class
+me\ponktacology\simpleconfig\test\TestClass.class
+me\ponktacology\simpleconfig\adapter\ConfigAdapter.class
+me\ponktacology\simpleconfig\adapter\impl\BukkitConfigAdapter.class
+me\ponktacology\simpleconfig\config\annotation\Configurable.class
+me\ponktacology\simpleconfig\adapter\impl\BungeeConfigAdapter.class
+me\ponktacology\simpleconfig\config\ConfigFactory.class

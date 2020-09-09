@@ -1,0 +1,4 @@
+name: Simpleconfig
+version: ${project.version}
+main: me.ponktacology.simpleconfig.SimpleConfig
+api-version: 1.16

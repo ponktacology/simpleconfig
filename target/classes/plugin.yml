@@ -1,0 +1,4 @@
+name: Simpleconfig
+version: 1.0
+main: me.ponktacology.simpleconfig.SimpleConfig
+api-version: 1.16
