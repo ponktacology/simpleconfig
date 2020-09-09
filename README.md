@@ -16,7 +16,7 @@ Add this to your pom.xml
 	<dependency>
 	    <groupId>com.github.ponktacology</groupId>
 	    <artifactId>simpleconfig</artifactId>
-	    <version>608367a8d6</version>
+	    <version>fd52aa7e91</version>
 	</dependency>
 ```
 
