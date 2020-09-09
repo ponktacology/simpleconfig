@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d8346d0-88d4-45a5-b0e6-15610b3f2e5e" name="Default Changelist" comment="" />
+    <list default="true" id="5d8346d0-88d4-45a5-b0e6-15610b3f2e5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/ponktacology/simpleconfig/config/ConfigFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/ponktacology/simpleconfig/config/ConfigFactory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1hHlTzgs1J5X6jl6BJaNK4T6RJ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -78,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599675909637</updated>
       <workItem from="1599675915361" duration="2393000" />
-      <workItem from="1599678346023" duration="4262000" />
+      <workItem from="1599678346023" duration="4902000" />
     </task>
     <servers />
   </component>

@@ -23,7 +23,8 @@ public class ConfigFactory {
         try {
             Class.forName("org.bukkit.plugin.java.JavaPlugin");
             bukkit = true;
-        } catch (ClassNotFoundException ignored) { }
+        } catch (ClassNotFoundException ignored) {
+        }
 
         if (bukkit)
             configAdapter = new BukkitConfigAdapter(JavaPlugin.getPlugin((Class<? extends JavaPlugin>) mainClass));
@@ -76,7 +77,7 @@ public class ConfigFactory {
         });
     }
 
-    public static Set<Class<?>> getClasses(File jarFile, String packageName) {
+    private Set<Class<?>> getClasses(File jarFile, String packageName) {
         final Set<Class<?>> classes = new HashSet<>();
 
         try (final JarFile file = new JarFile(jarFile)) {

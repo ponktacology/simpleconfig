@@ -3,7 +3,25 @@ Simple config API for Bungee and Bukkit/Spigot
 
 ## Instalation
 
-#Usage
+Add this to your pom.xml
+
+```
+	<repository>
+		<id>jitpack.io</id>
+		url>https://jitpack.io</url>
+	</repository>
+```
+
+```
+	<dependency>
+	    <groupId>com.github.ponktacology</groupId>
+	    <artifactId>simpleconfig</artifactId>
+	    <version>aa6822f866</version>
+	</dependency>
+```
+
+
+## Usage
 ```java
 public class ExamplePlugin extends JavaPlugin {
 
