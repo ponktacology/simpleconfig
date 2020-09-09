@@ -35,7 +35,6 @@ public class BukkitConfigAdapter extends ConfigAdapter {
 
     @Override
     protected File getFile(String fileName) throws IOException {
-        System.out.println(javaPlugin.getDataFolder().toPath().toString() + " " + fileName);
         final File file = new File(javaPlugin.getDataFolder(), fileName);
         if(!javaPlugin.getDataFolder().exists()) javaPlugin.getDataFolder().mkdirs();
         if (!file.exists()) file.createNewFile();
