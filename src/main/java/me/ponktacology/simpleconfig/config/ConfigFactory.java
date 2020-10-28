@@ -37,7 +37,7 @@ public class ConfigFactory {
                     final String fileName = configurable.fileName();
                     String path = configurable.path();
 
-                    if (path.length() == 0)
+                    if (path.isEmpty())
                         path = field.getName();
 
                     try {
